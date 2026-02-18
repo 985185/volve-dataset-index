@@ -1,0 +1,254 @@
+{
+  "publish_dir": "/content/drive/MyDrive/volve_index_outputs/publish_v2",
+  "index": {
+    "parquet": "index/volve_events_index.parquet",
+    "csv_gz": [
+      "index/volve_events_index_part001.csv.gz",
+      "index/volve_events_index_part002.csv.gz",
+      "index/volve_events_index_part003.csv.gz",
+      "index/volve_events_index_part004.csv.gz"
+    ]
+  },
+  "buckets": {
+    "Completion_Workover": [
+      "buckets/Completion_Workover.csv.gz"
+    ],
+    "Daily_Drilling_Reports": [
+      "buckets/Daily_Drilling_Reports.csv.gz"
+    ],
+    "Drilling_LWD_MWD": [
+      "buckets/Drilling_LWD_MWD.csv.gz"
+    ],
+    "Integrity_Logs_CBL_USIT": [
+      "buckets/Integrity_Logs_CBL_USIT.csv.gz"
+    ],
+    "Other_Field_Data": [
+      "buckets/Other_Field_Data.csv.gz"
+    ],
+    "Production_Data": [
+      "buckets/Production_Data_part001.csv.gz",
+      "buckets/Production_Data_part002.csv.gz",
+      "buckets/Production_Data_part003.csv.gz",
+      "buckets/Production_Data_part004.csv.gz"
+    ],
+    "Production_Logs_PLT_RST": [
+      "buckets/Production_Logs_PLT_RST.csv.gz"
+    ],
+    "Reports_General": [
+      "buckets/Reports_General.csv.gz"
+    ],
+    "WITSML_Realtime": [
+      "buckets/WITSML_Realtime.csv.gz"
+    ],
+    "Well_Logs_Wireline": [
+      "buckets/Well_Logs_Wireline.csv.gz"
+    ]
+  },
+  "qa": {
+    "QA_report": "qa/QA_report.csv"
+  },
+  "notes": [
+    "Production_Data well mapping is not available in Volve public PI export; well field may remain blank by design. Use pi_tag/pi_family filters instead."
+  ],
+  "tags": {
+    "ASCII": [
+      "tags/ASCII.csv.gz"
+    ],
+    "CBL": [
+      "tags/CBL.csv.gz"
+    ],
+    "COMPLETION": [
+      "tags/COMPLETION.csv.gz"
+    ],
+    "CORE": [
+      "tags/CORE.csv.gz"
+    ],
+    "CSV": [
+      "tags/CSV_part001.csv.gz",
+      "tags/CSV_part002.csv.gz",
+      "tags/CSV_part003.csv.gz",
+      "tags/CSV_part004.csv.gz",
+      "tags/CSV_part005.csv.gz"
+    ],
+    "DAT": [
+      "tags/DAT.csv.gz"
+    ],
+    "DDR": [
+      "tags/DDR.csv.gz"
+    ],
+    "DLIS": [
+      "tags/DLIS.csv.gz"
+    ],
+    "DOC": [
+      "tags/DOC.csv.gz"
+    ],
+    "ECLIPSE": [
+      "tags/ECLIPSE.csv.gz"
+    ],
+    "HTML": [
+      "tags/HTML.csv.gz"
+    ],
+    "INJECTION": [
+      "tags/INJECTION.csv.gz"
+    ],
+    "LAS": [
+      "tags/LAS.csv.gz"
+    ],
+    "LWD": [
+      "tags/LWD.csv.gz"
+    ],
+    "PARQUET": [
+      "tags/PARQUET.csv.gz"
+    ],
+    "PDF": [
+      "tags/PDF.csv.gz"
+    ],
+    "PERF": [
+      "tags/PERF.csv.gz"
+    ],
+    "PLT": [
+      "tags/PLT.csv.gz"
+    ],
+    "PPT": [
+      "tags/PPT.csv.gz"
+    ],
+    "RST": [
+      "tags/RST.csv.gz"
+    ],
+    "SEGY": [
+      "tags/SEGY.csv.gz"
+    ],
+    "TXT": [
+      "tags/TXT.csv.gz"
+    ],
+    "USIT": [
+      "tags/USIT.csv.gz"
+    ],
+    "WITSML": [
+      "tags/WITSML.csv.gz"
+    ],
+    "XLS": [
+      "tags/XLS.csv.gz"
+    ],
+    "XML": [
+      "tags/XML.csv.gz"
+    ],
+    "ZIP": [
+      "tags/ZIP.csv.gz"
+    ]
+  },
+  "wells": {
+    "15/9-19A": [
+      "wells/15_9-19A.csv.gz"
+    ],
+    "15/9-19B": [
+      "wells/15_9-19B.csv.gz"
+    ],
+    "15/9-19B&BT2": [
+      "wells/15_9-19B&BT2.csv.gz"
+    ],
+    "15/9-19BT": [
+      "wells/15_9-19BT.csv.gz"
+    ],
+    "15/9-19BT2": [
+      "wells/15_9-19BT2.csv.gz"
+    ],
+    "15/9-19S": [
+      "wells/15_9-19S.csv.gz"
+    ],
+    "15/9-19S&SR": [
+      "wells/15_9-19S&SR.csv.gz"
+    ],
+    "15/9-19SR": [
+      "wells/15_9-19SR.csv.gz"
+    ],
+    "15/9-19ST": [
+      "wells/15_9-19ST.csv.gz"
+    ],
+    "15/9-F-1": [
+      "wells/15_9-F-1.csv.gz"
+    ],
+    "15/9-F-10": [
+      "wells/15_9-F-10.csv.gz"
+    ],
+    "15/9-F-11": [
+      "wells/15_9-F-11.csv.gz"
+    ],
+    "15/9-F-11A": [
+      "wells/15_9-F-11A.csv.gz"
+    ],
+    "15/9-F-11B": [
+      "wells/15_9-F-11B.csv.gz"
+    ],
+    "15/9-F-11T2": [
+      "wells/15_9-F-11T2.csv.gz"
+    ],
+    "15/9-F-12": [
+      "wells/15_9-F-12.csv.gz"
+    ],
+    "15/9-F-13": [
+      "wells/15_9-F-13.csv.gz"
+    ],
+    "15/9-F-14": [
+      "wells/15_9-F-14.csv.gz"
+    ],
+    "15/9-F-15": [
+      "wells/15_9-F-15.csv.gz"
+    ],
+    "15/9-F-15A": [
+      "wells/15_9-F-15A.csv.gz"
+    ],
+    "15/9-F-15B": [
+      "wells/15_9-F-15B.csv.gz"
+    ],
+    "15/9-F-15C": [
+      "wells/15_9-F-15C.csv.gz"
+    ],
+    "15/9-F-15D": [
+      "wells/15_9-F-15D.csv.gz"
+    ],
+    "15/9-F-15S": [
+      "wells/15_9-F-15S.csv.gz"
+    ],
+    "15/9-F-1A": [
+      "wells/15_9-F-1A.csv.gz"
+    ],
+    "15/9-F-1B": [
+      "wells/15_9-F-1B.csv.gz"
+    ],
+    "15/9-F-1C": [
+      "wells/15_9-F-1C.csv.gz"
+    ],
+    "15/9-F-2": [
+      "wells/15_9-F-2.csv.gz"
+    ],
+    "15/9-F-3": [
+      "wells/15_9-F-3.csv.gz"
+    ],
+    "15/9-F-4": [
+      "wells/15_9-F-4.csv.gz"
+    ],
+    "15/9-F-5": [
+      "wells/15_9-F-5.csv.gz"
+    ],
+    "15/9-F-6": [
+      "wells/15_9-F-6.csv.gz"
+    ],
+    "15/9-F-7": [
+      "wells/15_9-F-7.csv.gz"
+    ],
+    "15/9-F-8": [
+      "wells/15_9-F-8.csv.gz"
+    ],
+    "15/9-F-9": [
+      "wells/15_9-F-9.csv.gz"
+    ],
+    "15/9-F-9A": [
+      "wells/15_9-F-9A.csv.gz"
+    ]
+  },
+  "summaries": [
+    "summaries/tag_coverage.csv",
+    "qa/QA_report.csv"
+  ]
+}
