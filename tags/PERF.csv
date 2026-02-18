@@ -1,2 +1,0 @@
-id,path,name,type,category_raw,ext,bucket,well,tags,event_key,record_id
-466e73d73263deb93c1d949cfc0f55bc10630a30,dbfs:/Volumes/equinor_asa_volve_data_village/public/volve/Geophysical_Interpretations/Wells/Well_perforations_Volve.dat,Well_perforations_Volve.dat,file,well_data,dat,Other_Field_Data,,PERF,well perforations volve.dat,|Other_Field_Data|well perforations volve.dat
