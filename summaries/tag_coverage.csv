@@ -1,0 +1,11 @@
+bucket,rows,empty_tags,pct_empty_tags
+Completion_Workover,269,43,15.99
+Daily_Drilling_Reports,2133,0,0.0
+Drilling_LWD_MWD,968,277,28.62
+Integrity_Logs_CBL_USIT,24,3,12.5
+Other_Field_Data,1783,122,6.84
+Production_Data,375443,25,0.01
+Production_Logs_PLT_RST,112,5,4.46
+Reports_General,48,0,0.0
+WITSML_Realtime,7554,0,0.0
+Well_Logs_Wireline,917,231,25.19
