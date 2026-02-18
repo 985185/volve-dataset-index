@@ -1,0 +1,79 @@
+{
+  "generated_from": "/content/drive/MyDrive/volve_index_outputs",
+  "publish_dir": "/content/drive/MyDrive/volve_index_outputs/publish",
+  "files": {
+    "index": {
+      "parquet": "index/volve_events_index.parquet",
+      "csv_gz": "index/volve_events_index.csv.gz"
+    },
+    "summaries": [
+      "summaries/bucket_summary_events.csv",
+      "summaries/well_registry_events.csv"
+    ],
+    "buckets": [
+      "buckets/Completion_Workover.csv",
+      "buckets/Daily_Drilling_Reports.csv",
+      "buckets/Drilling_LWD_MWD.csv",
+      "buckets/Integrity_Logs_CBL_USIT.csv",
+      "buckets/Other_Field_Data.csv",
+      "buckets/Production_Data/Production_Data_part001.csv",
+      "buckets/Production_Data/Production_Data_part002.csv",
+      "buckets/Production_Logs_PLT_RST.csv",
+      "buckets/Reports_General.csv",
+      "buckets/WITSML_Realtime.csv",
+      "buckets/Well_Logs_Wireline.csv"
+    ],
+    "wells": [
+      "wells/15_9-19A.csv",
+      "wells/15_9-19B&BT2.csv",
+      "wells/15_9-19B.csv",
+      "wells/15_9-19BT.csv",
+      "wells/15_9-19BT2.csv",
+      "wells/15_9-19S&SR.csv",
+      "wells/15_9-19S.csv",
+      "wells/15_9-19SR.csv",
+      "wells/15_9-19ST.csv",
+      "wells/15_9-F-1.csv",
+      "wells/15_9-F-10.csv",
+      "wells/15_9-F-11.csv",
+      "wells/15_9-F-11A.csv",
+      "wells/15_9-F-11B.csv",
+      "wells/15_9-F-11T2.csv",
+      "wells/15_9-F-12.csv",
+      "wells/15_9-F-13.csv",
+      "wells/15_9-F-14.csv",
+      "wells/15_9-F-15.csv",
+      "wells/15_9-F-15A.csv",
+      "wells/15_9-F-15B.csv",
+      "wells/15_9-F-15C.csv",
+      "wells/15_9-F-15D.csv",
+      "wells/15_9-F-15S.csv",
+      "wells/15_9-F-1A.csv",
+      "wells/15_9-F-1B.csv",
+      "wells/15_9-F-1C.csv",
+      "wells/15_9-F-2.csv",
+      "wells/15_9-F-3.csv",
+      "wells/15_9-F-4.csv",
+      "wells/15_9-F-5.csv",
+      "wells/15_9-F-6.csv",
+      "wells/15_9-F-7.csv",
+      "wells/15_9-F-8.csv",
+      "wells/15_9-F-9.csv",
+      "wells/15_9-F-9A.csv"
+    ],
+    "tags": [
+      "tags/CBL.csv",
+      "tags/COMPLETION.csv",
+      "tags/CORE.csv",
+      "tags/DDR.csv",
+      "tags/DLIS.csv",
+      "tags/INJECTION.csv",
+      "tags/LAS.csv",
+      "tags/LWD.csv",
+      "tags/PERF.csv",
+      "tags/PLT.csv",
+      "tags/SEGY.csv",
+      "tags/WITSML.csv"
+    ]
+  }
+}
