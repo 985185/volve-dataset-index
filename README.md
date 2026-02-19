@@ -99,6 +99,24 @@ The catalog should be used as a discovery and navigation aid rather than a subst
 NPDID wellbore is the Norwegian Offshore Directorate's unique identifier used in the FactPages petroleum database.
 
 ---
+## How to Interpret the Catalog
+
+The Volve public data release is a filesystem archive rather than an operational database.
+The catalog indexes files and their metadata; it does not directly represent field activities.
+
+In petroleum operations, many measurements and events are stored inside multi-channel log containers (e.g., DLIS files) or embedded within reports rather than as separately named files. A single logging run may contain numerous measurements such as caliper, resistivity, formation pressure, image logs, and cement evaluation curves, all within one file.
+
+Because the catalog operates at the filesystem level, tags indicate what can be unambiguously identified from filenames and directory context. They do not enumerate every operation performed in the field.
+
+Therefore:
+
+absence of a specific tag does not imply the operation was not performed
+
+many measurements exist as channels inside DLIS logs
+
+some operational information exists only within reports or documentation
+
+The catalog should be used as a discovery and navigation aid to locate candidate files for analysis, not as a complete operational history of the field.
 
 ## Citation
 
