@@ -45,3 +45,12 @@ The validation does not evaluate the engineering quality or usability of the fil
 ### Limitations
 Small populations (e.g., cement evaluation) limit statistical confidence.  
 The catalog should be treated as a navigation aid rather than a replacement for technical quality control.
+
+## Derived Repository Views
+
+The repository also contains derived summary views (per_well, per_tag, and per_bucket).  
+These are convenience navigation aids generated directly from the frozen catalog `volve_catalog_v1.csv`.
+
+They are not independent datasets and do not contain additional information beyond what is recorded in the catalog.  
+Their purpose is to allow quick inspection and manual browsing without requiring database or scripting tools.
+
