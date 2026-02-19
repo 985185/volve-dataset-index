@@ -3,6 +3,7 @@
 
 This repository provides a **research discovery index** for the public Equinor Volve field dataset.  
 It does **not** contain any original Volve data files.
+The catalog references file paths within the official public Volve data release and does not redistribute or replicate the dataset contents.
 
 The goal is to help researchers quickly locate usable files (logs, reports, WITSML, seismic, images) within the very large and inconsistently structured public release.
 
@@ -69,3 +70,5 @@ Frozen catalog availability
 
 The full metadata catalog associated with this study is provided as a frozen research artifact in the repository Releases section (v1.0). The repository itself contains documentation describing the catalog structure and validation procedure.
 
+## Citation
+Appalla, Tejaswy. (2026). Volve Metadata Discovery Index: A validated filesystem-level catalog for navigating the Equinor Volve public dataset. GitHub research artifact. https://github.com/985185/volve-dataset-index
