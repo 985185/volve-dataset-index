@@ -1,3 +1,5 @@
+# Data Dictionary
+
 This document describes the column structure of the Volve metadata catalog.
 
 The catalog is distributed as a frozen research artifact:
