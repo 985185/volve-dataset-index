@@ -123,4 +123,4 @@ The catalog should be used as a discovery and navigation aid to locate candidate
 If you use this catalog in research, please cite:
 
 Appalla, Tejaswy (2026). *Volve Metadata Discovery Index: A validated filesystem-level catalog for navigating the Equinor Volve public dataset*. GitHub research artifact.
-https://github.com/985185/volve-dataset-index
+https://github.com/985185/volve-metadata-index
