@@ -1,3 +1,9 @@
+This document describes the column structure of the Volve metadata catalog.
+
+The catalog is distributed as a frozen research artifact:
+volve_catalog_v1.csv
+
+The file contains a metadata-only index of the official public Equinor Volve dataset and does not include any original data files.
 
 # Data Dictionary
 
