@@ -69,3 +69,5 @@ You must include:
 `volve data meta.csv`
 
 This CSV is the actual research artifact.
+
+The full metadata catalog is available in the repository Releases section (v1.0 frozen catalog).
