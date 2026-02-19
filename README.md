@@ -65,9 +65,7 @@ Top wells mapped to official wellbore identifiers:
 NPDID wellbore is the Norwegian Offshore Directorate's unique identifier used in the FactPages petroleum database.
 
 ## Required file
-You must include:
-`volve data meta.csv`
+Frozen catalog availability
 
-This CSV is the actual research artifact.
+The full metadata catalog associated with this study is provided as a frozen research artifact in the repository Releases section (v1.0). The repository itself contains documentation describing the catalog structure and validation procedure.
 
-The full metadata catalog is available in the repository Releases section (v1.0 frozen catalog).
