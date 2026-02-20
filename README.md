@@ -128,3 +128,12 @@ If you use this catalog in research, please cite:
 
 Appalla, Tejaswy (2026). *Volve Metadata Discovery Index: A validated filesystem-level catalog for navigating the Equinor Volve public dataset*. GitHub research artifact.
 https://github.com/985185/volve-metadata-index
+
+## References
+
+Equinor. Volve Field Data Village (public dataset release).  
+https://www.equinor.com/energy/volve-data-sharing
+
+Metadata inventory used in this project:  
+https://github.com/985185/volve-metadata-index
+
