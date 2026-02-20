@@ -73,7 +73,7 @@ C) Find all DLIS files
 dlis = df[df["tags"].fillna("").str.contains("DLIS")]
 dlis[["well","ext_norm","name","path"]].head(20)
 
-D) Wells that have any DLIS
+### D) Wells that have any DLIS
 sorted(dlis["well"].dropna().unique())[:30]
 
 E) Find WITSML telemetry
@@ -81,7 +81,7 @@ w = df[df["tags"].fillna("").str.contains("WITSML")]
 w[["well","name","path"]].head(20)
 
 
-F) “Give me a quick coverage matrix: well × tag”
+### F) “Give me a quick coverage matrix: well × tag”
 
 tmp = df.copy()
 tmp["tags_norm"] = tmp["tags"].fillna("")
@@ -99,7 +99,7 @@ coverage.head(30)
 
 
 
-5) Important interpretation note (read this once)
+### 5) Important interpretation note (read this once)
 
 The Volve public release is a filesystem archive, not an operational database.
 
@@ -116,7 +116,7 @@ some operational information exists only within reports and documentation
 
 Use the catalog to locate candidate files for analysis, not as a complete operational history.
 
-6) If you cite this work
+### 6) If you cite this work
 
 See README.md for the recommended citation text.
 
@@ -147,12 +147,3 @@ docs/
 coverage_heatmap.png
 README.md
 LICENSE
-
-
-### What I need from you (one line)
-Where is `volve_catalog_v1.csv` accessible for Databricks?
-- either a **DBFS path** (e.g., `dbfs:/FileStore/.../volve_catalog_v1.csv`)
-- or tell me “it’s on my laptop only” and we’ll do the fastest upload method.
-
-If you paste that path, I’ll give you the exact Databricks notebook cells for `01_build_coverage_from_catalog.ipynb` (no extra fluff).
-::contentReference[oaicite:0]{index=0}
