@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/github/license/985185/volve-metadata-index)](LICENSE)
 [![Dataset](https://img.shields.io/badge/dataset-Equinor%20Volve-lightgrey)](https://www.equinor.com/energy/volve-data-sharing)
 
-# Volve Metadata Discovery Index
+# Volve Metadata Index
 
 This repository provides a **research discovery index** for the public Equinor Volve field dataset.
 It does **not** contain any original Volve data files.
