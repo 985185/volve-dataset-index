@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this metadata index in research, please cite it as follows."
+title: "Volve Metadata Index"
+authors:
+  - family-names: "Appalla"
+    given-names: "Tejaswy"
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/985185/volve-metadata-index"
+url: "https://github.com/985185/volve-metadata-index"
+version: "v1.0"
+date-released: 2026-02-20
+license: "MIT"
+keywords:
+  - Volve
+  - petroleum engineering
+  - well logs
+  - WITSML
+  - dataset indexing
+  - research infrastructure
+abstract: >
+  A validated filesystem-level metadata discovery index for the public Equinor Volve dataset.
+  The artifact maps file structure to wells, data types, and official Norwegian Offshore Directorate identifiers,
+  enabling reproducible dataset navigation without redistributing original data.
