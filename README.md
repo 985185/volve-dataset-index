@@ -1,8 +1,7 @@
-[![Release](https://img.shields.io/github/v/release/985185/volve-content-coverage?label=release)](https://github.com/985185/volve-content-coverage/releases)
-[![Metadata Index](https://img.shields.io/badge/depends%20on-volve--metadata--index-blue)](https://github.com/985185/volve-metadata-index)
-[![License](https://img.shields.io/github/license/985185/volve-content-coverage)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/985185/volve-metadata-index?label=release)](https://github.com/985185/volve-metadata-index/releases)
+[![License](https://img.shields.io/github/license/985185/volve-metadata-index)](LICENSE)
 [![Dataset](https://img.shields.io/badge/dataset-Equinor%20Volve-lightgrey)](https://www.equinor.com/energy/volve-data-sharing)
-[![Coverage Map](https://img.shields.io/badge/output-coverage%20map-green)](#coverage-outputs)
+
 # Volve Metadata Discovery Index
 
 This repository provides a **research discovery index** for the public Equinor Volve field dataset.
