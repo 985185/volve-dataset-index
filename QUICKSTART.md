@@ -64,3 +64,95 @@ import pandas as pd
 df = pd.read_csv("volve_catalog_v1.csv", low_memory=False)
 print(df.columns)
 print(df.head(3))
+
+### B) Count files per well
+
+df["well"].value_counts().head(20)
+
+C) Find all DLIS files
+dlis = df[df["tags"].fillna("").str.contains("DLIS")]
+dlis[["well","ext_norm","name","path"]].head(20)
+
+D) Wells that have any DLIS
+sorted(dlis["well"].dropna().unique())[:30]
+
+E) Find WITSML telemetry
+w = df[df["tags"].fillna("").str.contains("WITSML")]
+w[["well","name","path"]].head(20)
+
+
+F) “Give me a quick coverage matrix: well × tag”
+
+tmp = df.copy()
+tmp["tags_norm"] = tmp["tags"].fillna("")
+tmp = tmp.assign(tag=tmp["tags_norm"].str.split("|")).explode("tag")
+tmp["tag"] = tmp["tag"].str.strip()
+tmp = tmp[tmp["tag"] != ""]
+
+coverage = (
+    tmp.groupby(["well","tag"])
+       .size()
+       .reset_index(name="count")
+       .sort_values(["well","count"], ascending=[True, False])
+)
+coverage.head(30)
+
+
+
+5) Important interpretation note (read this once)
+
+The Volve public release is a filesystem archive, not an operational database.
+
+Tags indicate what can be unambiguously identified from filenames and directory context.
+They do not enumerate every operation performed in the field.
+
+Therefore:
+
+absence of a tag does not imply an operation was not performed
+
+many measurements exist as channels inside DLIS logs
+
+some operational information exists only within reports and documentation
+
+Use the catalog to locate candidate files for analysis, not as a complete operational history.
+
+6) If you cite this work
+
+See README.md for the recommended citation text.
+
+---
+
+## Now: `volve-content-coverage` — yes, let’s do it
+
+That repo should produce a **petroleum-friendly “coverage map”**, separate from the frozen index repo.
+
+### What we’ll build (v0.1)
+From your frozen catalog CSV (no recrawling):
+- `coverage_by_well.csv` → per well: counts by tag + extension + folder
+- `coverage_by_tag.csv` → which wells have each tag + counts
+- `coverage_matrix.parquet` → well × tag counts (good for dashboards)
+- `docs/coverage_heatmap.png` (optional) → visual “what exists where”
+
+### Repo structure (recommended)
+volve-content-coverage/
+notebooks/
+01_build_coverage_from_catalog.ipynb
+src/
+build_coverage.py
+outputs/
+coverage_by_well.csv
+coverage_by_tag.csv
+coverage_matrix.parquet
+docs/
+coverage_heatmap.png
+README.md
+LICENSE
+
+
+### What I need from you (one line)
+Where is `volve_catalog_v1.csv` accessible for Databricks?
+- either a **DBFS path** (e.g., `dbfs:/FileStore/.../volve_catalog_v1.csv`)
+- or tell me “it’s on my laptop only” and we’ll do the fastest upload method.
+
+If you paste that path, I’ll give you the exact Databricks notebook cells for `01_build_coverage_from_catalog.ipynb` (no extra fluff).
+::contentReference[oaicite:0]{index=0}
